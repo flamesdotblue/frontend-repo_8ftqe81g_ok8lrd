@@ -2,18 +2,18 @@ import { ArrowRight } from 'lucide-react';
 
 const projects = [
   {
-    name: 'SaaS Analytics Dashboard',
-    tag: 'Product UI',
+    name: 'SaaS Analytics Platform',
+    tag: 'SaaS Platform',
     gradient: 'from-indigo-500 via-sky-500 to-cyan-400'
   },
   {
     name: 'E‑commerce Experience',
-    tag: 'Growth',
+    tag: 'E‑commerce',
     gradient: 'from-fuchsia-500 via-pink-500 to-rose-500'
   },
   {
-    name: 'Marketing Microsite',
-    tag: 'Campaign',
+    name: 'Admin Dashboard UI',
+    tag: 'Dashboard UI',
     gradient: 'from-amber-400 via-orange-500 to-red-500'
   }
 ];
@@ -24,10 +24,15 @@ export default function Work() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex items-end justify-between gap-6">
           <div>
-            <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-gray-900">Selected work</h2>
-            <p className="mt-3 max-w-2xl text-gray-700">A peek at the kinds of digital experiences we create.</p>
+            <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-gray-900">Portfolio Showcase</h2>
+            <p className="mt-3 max-w-2xl text-gray-700">
+              Select work spanning platforms and industries. Smooth interactions, crisp visuals, and measurable results.
+            </p>
           </div>
-          <a href="#contact" className="hidden sm:inline-flex items-center gap-2 rounded-md border border-gray-300 bg-white px-4 py-2 text-sm text-gray-900 hover:bg-gray-50">
+          <a
+            href="#contact"
+            className="hidden sm:inline-flex items-center gap-2 rounded-md border border-gray-300 bg-white px-4 py-2 text-sm text-gray-900 hover:bg-gray-50"
+          >
             Start a conversation
             <ArrowRight className="h-4 w-4" />
           </a>
@@ -35,7 +40,10 @@ export default function Work() {
 
         <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {projects.map((p) => (
-            <div key={p.name} className="group rounded-2xl border border-gray-200 bg-white p-4 shadow-sm transition hover:shadow-md">
+            <div
+              key={p.name}
+              className="group rounded-2xl border border-gray-200 bg-white p-4 shadow-sm transition hover:shadow-md"
+            >
               <div className={`aspect-[16/10] w-full overflow-hidden rounded-xl bg-gradient-to-br ${p.gradient}`}>
                 <div className="h-full w-full bg-[radial-gradient(circle_at_30%_30%,rgba(255,255,255,0.25),transparent_50%),radial-gradient(circle_at_70%_70%,rgba(255,255,255,0.2),transparent_40%)]" />
               </div>

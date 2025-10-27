@@ -7,7 +7,7 @@ export default function Hero() {
       {/* 3D Scene */}
       <div className="absolute inset-0">
         <Spline
-          scene="https://prod.spline.design/VJLoxp84lCdVfdZu/scene.splinecode"
+          scene="https://prod.spline.design/4cHQr84zOGAHOehh/scene.splinecode"
           style={{ width: '100%', height: '100%' }}
         />
         {/* Soft gradient overlays that don't block interactions */}
@@ -20,22 +20,22 @@ export default function Hero() {
         <div className="max-w-3xl">
           <div className="inline-flex items-center gap-2 rounded-full border border-gray-200 bg-white/70 px-3 py-1 text-xs font-medium text-gray-700 backdrop-blur">
             <Sparkles className="h-4 w-4 text-indigo-600" />
-            <span>Modern web experiences, crafted with care</span>
+            <span>Cutting-edge web and mobile experiences</span>
           </div>
           <h1 className="mt-6 text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-gray-900">
-            Codearrival Tech
-            <span className="block bg-gradient-to-r from-indigo-600 via-sky-500 to-cyan-400 bg-clip-text text-transparent">Web agency for the next era</span>
+            We Code Your Vision Into Reality
+            <span className="block bg-gradient-to-r from-indigo-600 via-sky-500 to-cyan-400 bg-clip-text text-transparent">Codearrival Tech</span>
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-gray-700">
-            We design, build, and launch fast, beautiful, and scalable websites and apps. From concept to conversion, we turn ideas into interactive reality.
+            Custom Web & App Development, AI Integrations, and Scalable SaaS Solutions. We blend design, engineering, and performance to ship products that grow with you.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <a href="#contact" className="inline-flex items-center gap-2 rounded-md bg-gray-900 px-5 py-3 text-white hover:bg-gray-800">
-              Start a project
+              Start Your Project
               <ArrowRight className="h-4 w-4" />
             </a>
-            <a href="#services" className="inline-flex items-center gap-2 rounded-md border border-gray-300 bg-white px-5 py-3 text-gray-900 hover:bg-gray-50">
-              Explore our services
+            <a href="#work" className="inline-flex items-center gap-2 rounded-md border border-gray-300 bg-white px-5 py-3 text-gray-900 hover:bg-gray-50">
+              View Portfolio
             </a>
           </div>
         </div>
